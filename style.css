@@ -111,7 +111,6 @@ body{
 }
 
 .home-text p{
-  margin-bottom: 3rem;
   line-height: 2rem;
   font-size: 1rem;
 }
@@ -165,7 +164,7 @@ transition: all 0.5s;
     flex-direction: column;
     background:var(--white);
     gap: -10px;
-    transition: 0.3s;
+    transition: 0.5s;
 
    }
 
@@ -179,11 +178,11 @@ transition: all 0.5s;
    /*Main*/
 
    .home{
-    padding: 100px 2%;
+    padding: 100px 2% 20px 2%;
     flex-direction: column;
     text-align: center;
     overflow: hidden;
-    gap: 2rem;
+    gap: 1rem;
    }
 
    .home .text-h4{
@@ -191,7 +190,7 @@ transition: all 0.5s;
    }
 
    .home .text-h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 4rem;
    }
 
@@ -200,7 +199,12 @@ transition: all 0.5s;
    }
 
    .home-img{
-    width: 100%;
+    width: 45%;
+    height: 40%;
+   }
+   .home-btn{
+    font-size: 0.7rem;
+    max-width: 50px;
    }
 
 }
